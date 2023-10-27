@@ -37,10 +37,6 @@ Problem for me with EF has been that it's really easy to shoot yourself in the f
 
 As you can see, there are a lot of different reasons to prefer Dapper over EF. Can we find common parts?
 
-#### Maturity
-
-It seems that more mature/experienced developer is, the more he/she prefers Dapper over EF. Some of developers articulate reasons well, for some it's more of a "gut feeling" (which is still valuable and shouldn't be easily discarded).
-
 #### Leaking abstraction
 
 EF tries to "abstract away" SQL. Does it work? Only in special circumstances, the ones that rarely happen in real life. What are those circumstances?
@@ -57,3 +53,9 @@ The same point can be re-phrased differently. If you don't have SQL expertise in
 With Dapper, the entry barrier is low, you can get to MVP faster, all you need to start is to install Nuget package. With EF, you need to learn its abstractions before you can start using it.
 
 In other words, "pay as you go" principle holds for Dapper, but not for EF - with EF you pay with cognitive overhead even for features you don't use.
+
+#### Maturity
+
+It seems that more mature/experienced developer is, the more he/she prefers Dapper over EF. Some of developers articulate reasons well, for some it's more of a "gut feeling" (which is still valuable and shouldn't be easily discarded).
+
+As of today, there are 270 million downloads of Dapper nuget package. For the third party package, this means "de facto standard" (please remember that EF is pushed to the user every time she starts new asp.net project).
