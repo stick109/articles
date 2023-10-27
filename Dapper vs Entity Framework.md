@@ -55,3 +55,5 @@ The same point can be re-phrased differently. If you don't have SQL expertise in
 #### Pay as you go
 
 With Dapper, the entry barrier is low, you can get to MVP faster, all you need to start is to install Nuget package. With EF, you need to learn its abstractions before you can start using it.
+
+In other words, "pay as you go" principle holds for Dapper, but not for EF - with EF you pay with cognitive overhead even for features you don't use.
