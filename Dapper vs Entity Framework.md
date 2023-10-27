@@ -59,3 +59,7 @@ In other words, "pay as you go" principle holds for Dapper, but not for EF - wit
 It seems that more mature/experienced developer is, the more he/she prefers Dapper over EF. Some of developers articulate reasons well, for some it's more of a "gut feeling" (which is still valuable and shouldn't be easily discarded).
 
 As of today, there are 270 million downloads of Dapper nuget package. For the third party package, this means "de facto standard". EF has more downloads, but EF is pushed to the user every time new asp.net project is created, so direct comparison is not informative.
+
+## Conclusion
+
+Use Dapper instead of EF unless you know very well what you are doing and why.
