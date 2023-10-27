@@ -62,4 +62,4 @@ As of today, there are 270 million downloads of Dapper nuget package. For the th
 
 ## Conclusion
 
-Use Dapper instead of EF unless you know very well what you are doing and why.
+Use Dapper instead of EF unless you know what you are doing (but then you wouldn't be reading this article, would you?)
